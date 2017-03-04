@@ -289,8 +289,8 @@ input:checked + .slider:before {	-webkit-transform: translateX(26px);
 	font-size: 1.2em;
 	border-radius: 15px;
 	border: 1px solid #5c7f89;
-	color: #5c7f89;
-	}
+	color: #5c7f89;}
+
 .abbut:hover{color: white;
 	background-color:#5c7f89 }
 /*end aboutus*/
@@ -301,25 +301,17 @@ input:checked + .slider:before {	-webkit-transform: translateX(26px);
 .ourt h4{ font-size: 2em;
 	color: #717780;}
 	
-.ourt p{color: #717780;
-	
-	
-}
+.ourt p{color: #717780;}
 
 .lin2{ width: 13%;
 	height: 1px;
 	background-color: #dad7d7;
 	margin: auto;
-	margin-bottom: 30px;
-	
-	
-	
-}
-.vv{
-	width: 100%;
+	margin-bottom: 30px;}
+
+.vv{	width: 100%;
 	background-color: black;
-	margin-bottom: 15%;
-}
+	margin-bottom: 15%;}
 
 .imgall{margin: auto;
 	width: 150px;
@@ -327,60 +319,42 @@ input:checked + .slider:before {	-webkit-transform: translateX(26px);
 	border-radius: 50%;
 	filter: grayscale(1);
 	transition: all .5s ease-in-out;
-	transform: rotate(30deg);
-	
-	
-}
+	transform: rotate(30deg);}
 
-.databox{
-	margin-top: 50px;
-	margin-bottom: 50px;
+.databox{	margin: 50px auto;
 	width: 100%;
-	padding: 10%;
+	padding: 10% 5%;
 	border-radius: 10px;
 	background-color: white;
 	border: 1px solid #d9dbdd;
 	filter: drop-shadow(1px 1px 5px #d9dbdd);
-	transition: all .5s ease-in-out;
-}
+	transition: all .5s ease-in-out;}
 
+.databox .h5{font-weight: bolder;
+	font-size: 1.5em;}
 
-.databox .h5{
-	font-weight: bolder;
-	font-size: 1.5em;
-}
+.databox .fa-1x{	font-size: 1.7em;
+	margin-left: 3px;}
 
-.databox .fa-1x{
-	font-size: 1.7em;
-	margin-left: 3px;
-}
+.databox:hover{	transform: scale(1.05);
+	transition: all .5s ease-in-out;}
 
-.databox:hover{
-	transform: scale(1.05);
-	transition: all .5s ease-in-out;
-}
 .databox:hover .imgall{transform: rotate(0deg);
 	transition: all .5s ease-in-out;
-	filter: grayscale(.0);
-	
-}
+	filter: grayscale(.0);}
 
-.lasbut{
-	padding: .4em 2em;
-	margin-top: 15px;
+.lasbut{	padding: .4em 2em;
+	margin-top: 30px;
 	border-radius: 10px;
 	background-color:  #5c7f89;
 	border: 1px solid transparent;
-	color: white;
-}
+	color: white;}
 
 .lasbut:hover{
 	border: 1px solid #5c7f89;
 	color: #5c7f89;
-	background-color: transparent;
-}
-
-
+	background-color: transparent;}
+/*end aboutuspage*/
 /*media*/
 @media (max-width: 1200px){
 	.ove{	padding: 30em;}
@@ -389,26 +363,19 @@ input:checked + .slider:before {	-webkit-transform: translateX(26px);
 		margin-left: 20%;}
 	
 	.abh3{font-size: 1em;}
-	
-
 }
 /*media2*/
 @media (max-width: 500px){
 	.ove-3{padding: 0em;}
-	
 	.row{	margin: 0px;
 		padding: 0px;}
 	
 	.ove{		padding: 20em;}
 	
+	.col-xs-12{width: 135%;
+	margin-left: -20%;}
 	
-.databox{
-	width: 150%;
-	padding: 10%;
-	margin-left: -20%;
+	.footer .fa{font-size: 1.9em;
+	margin-top: 7px;}
+	.footer .h4{font-size: 1.1em;}
 }
-
-
-}
-
-
